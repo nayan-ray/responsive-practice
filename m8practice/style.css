@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #F9F9FA;
+   font-family: 'Inter', sans-serif;
+  
+    
+}
+a{
+    text-decoration: none;
+    color: #040522;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+   
+}
+
+.header{
+    font-weight: 400;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    margin-bottom: 60px;
+}
+.header a{
+    font-size: 24px;
+}
+
+.container{
+    width : 100%;
+    max-width : 1140px;
+    display : flex;
+    align-items : center;
+    justify-content : space-between;
+    margin : 0 auto;
+}
+
+.menu-icon-tablet{
+    display: none;
+}
+
+.menu-icon-mobile{
+    display: none;
+}
+
+@media (max-width: 1023px){
+    nav{
+        display: none;
+    }
+    .cta-login{
+        display: none;
+    }
+    .menu-icon-tablet{
+        display: block;
+    }
+}
+
+@media (max-width: 767px){
+
+    .menu-icon-tablet{
+        display: none;
+    }
+    .menu-icon-mobile{
+        display: block;
+    }
+}
+
+/* hero-section */
+.hero{
+    /* margin: 0 auto;
+    padding:  24px;
+    max-width: 1140px; */
+}
+
+.title-hero{
+    font-size: 36px;
+    font-weight: 600;
+    color: #101828;
+    margin-bottom: 8px;
+}
+.hero-left p{
+    font-size: 16px;
+    color: #1D2939;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.hero-btn{
+    background: #FFCD33;
+    color: #050400;
+    border: none;
+    padding: 16px 24px;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 48px;
+}
+.row{
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+   
+    margin: 0 auto;
+    padding:  24px;
+    max-width: 1140px;
+    
+}
+.hero-left{
+    flex: 1;
+}
+
+
+
+.hero-right{
+    flex: 1;
+  
+}
+.hero-right img{
+    width: 100%;
+    border-radius: 15px;
+}
+.companies-logo-section p{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.companies-logo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    
+}
