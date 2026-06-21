@@ -3,10 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./dist/output.css">
     <title>My Tailwind Project</title>
 </head>
 <body>
-      <h1 class="text-center font-bold">hello</h1>
+     <!-- header start here -->
+         <header class="w-full max-w-[1140px] bg-[#FFFFFF] h-[82.32px] shadow-[0_1px_1px_rgba(0,0,0,0.25)]  mx-auto p-[20px] flex items-center justify-between">
+               <img src="./assets/image 3.png" alt="logo" class="w-f[157px] h-[42.32px] object-cover">
+                <nav class = "hidden  lg:flex gap-[16px]">
+                    <a href="#" class="text-[24px] text-[#040522] font-inter font-light">Home</a>
+                    <a href="#" class="text-[24px] text-[#040522] font-inter font-light">About Us</a>
+                    <a href="#" class="text-[24px] text-[#040522] font-inter font-light">Testimonial</a>
+                    <a href="#" class="text-[24px] text-[#040522] font-inter font-light">Contact Us</a>
+                    <a href="#" class="text-[24px] text-[#040522] font-inter font-light">Services</a>
+                </nav>
+               <img src="./icons/Union2.png" alt="menu" class="w-f[28px] h-[18.67px] object-cover vetical-center md:hidden">
+                <img src="./icons/Union.png" alt="menu" class="w-f[30px] h-[20px] object-cover vetical-center hidden md:block lg:hidden">
+                <button class="text-[24px] text-[#040522] font-inter font-light hidden lg:block">login</button>
+         </header>
+      <!-- header end here -->
 </body>
 </html>
